@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt.iml" filepath="$PROJECT_DIR$/device-mgmt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt-api/device-mgmt-api.iml" filepath="$PROJECT_DIR$/device-mgmt-api/device-mgmt-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt-features/device-mgmt-features.iml" filepath="$PROJECT_DIR$/device-mgmt-features/device-mgmt-features.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt-impl/device-mgmt-impl.iml" filepath="$PROJECT_DIR$/device-mgmt-impl/device-mgmt-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt-rest/device-mgmt-rest.iml" filepath="$PROJECT_DIR$/device-mgmt-rest/device-mgmt-rest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/device-mgmt-webui/device-mgmt-webui.iml" filepath="$PROJECT_DIR$/device-mgmt-webui/device-mgmt-webui.iml" />
+    </modules>
+  </component>
+</project>

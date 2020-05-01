@@ -1,0 +1,12 @@
+version: '3.4'
+
+services:
+    device-mgmt:
+        tty: true
+        image: device-mgmt
+        build: .
+        container_name: device-mgmt
+        restart: on-failure
+        ports:
+            - "8000:8080"
+            - "8181:8181"

@@ -1,0 +1,9 @@
+com/tma/apa/training/device/mgmt/rest/resource/DeviceHolderRestResource.class
+com/tma/apa/training/device/mgmt/rest/util/RestUtil.class
+com/tma/apa/training/device/mgmt/rest/vo/DeviceResponse.class
+com/tma/apa/training/device/mgmt/rest/resource/impl/DeviceRestResourceImpl.class
+com/tma/apa/training/device/mgmt/rest/resource/impl/DeviceHolderRestResourceImpl.class
+com/tma/apa/training/device/mgmt/rest/vo/Level.class
+com/tma/apa/training/device/mgmt/rest/vo/Status.class
+com/tma/apa/training/device/mgmt/rest/provider/JacksonContextResolver.class
+com/tma/apa/training/device/mgmt/rest/resource/DeviceRestResource.class

@@ -1,0 +1,6 @@
+osgi.wiring.package; (osgi.wiring.package=javax.swing)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.swing.event)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.swing.border)
+0; version=0.0.0

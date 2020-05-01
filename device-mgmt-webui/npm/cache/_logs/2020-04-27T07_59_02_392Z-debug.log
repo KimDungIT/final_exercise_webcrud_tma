@@ -1,0 +1,34 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'run', 'build' ]
+2 info using npm@6.13.4
+3 info using node@v8.17.0
+4 verbose run-script [ 'prebuild', 'build', 'postbuild' ]
+5 info lifecycle device-app@0.1.0~prebuild: device-app@0.1.0
+6 info lifecycle device-app@0.1.0~build: device-app@0.1.0
+7 verbose lifecycle device-app@0.1.0~build: unsafe-perm in lifecycle true
+8 verbose lifecycle device-app@0.1.0~build: PATH: /usr/lib/node_modules/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-webui/node_modules/.bin:/usr/local/lib/npm/bin:/usr/local/lib/npm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/tminhdo/.node/bin:/usr/local/lib/npm/bin/yarn:/snap/bin:/usr/lib/eclipse:/usr/lib/maven/bin:/usr/lib/sublime3:/home/tminhdo/code/ee-environment/boxes/common-box:/home/tminhdo/.node/bin:/usr/local/lib/npm/bin/yarn:/usr/lib/eclipse:/usr/lib/maven/bin:/usr/lib/sublime3:/home/tminhdo/code/ee-environment/boxes/common-box
+9 verbose lifecycle device-app@0.1.0~build: CWD: /home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-webui
+10 silly lifecycle device-app@0.1.0~build: Args: [ '-c', 'react-scripts build' ]
+11 info lifecycle device-app@0.1.0~build: Failed to exec build script
+12 verbose stack Error: device-app@0.1.0 build: `react-scripts build`
+12 verbose stack spawn ENOENT
+12 verbose stack     at ChildProcess.<anonymous> (/usr/lib/node_modules/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+12 verbose stack     at emitTwo (events.js:126:13)
+12 verbose stack     at ChildProcess.emit (events.js:214:7)
+12 verbose stack     at maybeClose (internal/child_process.js:915:16)
+12 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
+13 verbose pkgid device-app@0.1.0
+14 verbose cwd /home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-webui
+15 verbose Linux 4.15.0-48-generic
+16 verbose argv "/usr/bin/node" "/usr/bin/npm" "run" "build"
+17 verbose node v8.17.0
+18 verbose npm  v6.13.4
+19 error code ELIFECYCLE
+20 error syscall spawn
+21 error file sh
+22 error errno ENOENT
+23 error device-app@0.1.0 build: `react-scripts build`
+23 error spawn ENOENT
+24 error Failed at the device-app@0.1.0 build script.
+24 error This is probably not a problem with npm. There is likely additional logging output above.
+25 verbose exit [ 1, true ]

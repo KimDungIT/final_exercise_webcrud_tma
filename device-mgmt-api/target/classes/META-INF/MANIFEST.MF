@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1588123673081
+Build-Jdk: 1.8.0_232
+Built-By: tminhdo
+Bundle-ManifestVersion: 2
+Bundle-Name: device-management/device-mgmt-api
+Bundle-SymbolicName: com.tma.apa.training.device.management.device-mgmt-
+ api
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.tma.apa.training.device.mgmt.dao;uses:="com.tma.apa.
+ training.device.mgmt.entity";version="1.0.0.SNAPSHOT",com.tma.apa.train
+ ing.device.mgmt.entity;uses:="javax.persistence";version="1.0.0.SNAPSHO
+ T",com.tma.apa.training.device.mgmt.exception;version="1.0.0.SNAPSHOT",
+ com.tma.apa.training.device.mgmt.service;uses:="com.tma.apa.training.de
+ vice.mgmt.exception,com.tma.apa.training.device.mgmt.vo";version="1.0.0
+ .SNAPSHOT",com.tma.apa.training.device.mgmt.vo;uses:="com.tma.apa.train
+ ing.device.mgmt.entity";version="1.0.0.SNAPSHOT"
+Import-Package: javax.persistence;version="[2,3)",com.tma.apa.training.d
+ evice.mgmt.entity,com.tma.apa.training.device.mgmt.exception,com.tma.ap
+ a.training.device.mgmt.vo,org.hibernate.annotations;version="[5.4,6)",o
+ rg.hibernate.proxy;version="[5.4,6)",javassist.util.proxy;version="[3.2
+ 4,4)"
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-4.2.0.201903051501

@@ -1,0 +1,14 @@
+osgi.wiring.package; (osgi.wiring.package=*)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.management)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.naming)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.sql)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.transaction.xa)
+50; version=1.2.0
+osgi.wiring.package; (osgi.wiring.package=javax.net)
+0; version=0.0.0
+osgi.wiring.package; (osgi.wiring.package=javax.net.ssl)
+0; version=0.0.0

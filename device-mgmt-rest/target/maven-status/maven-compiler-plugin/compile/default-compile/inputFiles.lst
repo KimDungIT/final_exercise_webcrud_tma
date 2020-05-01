@@ -1,0 +1,9 @@
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/provider/JacksonContextResolver.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/vo/DeviceResponse.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/resource/DeviceHolderRestResource.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/vo/Level.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/resource/impl/DeviceHolderRestResourceImpl.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/vo/Status.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/resource/DeviceRestResource.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/resource/impl/DeviceRestResourceImpl.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-rest/src/main/java/com/tma/apa/training/device/mgmt/rest/util/RestUtil.java

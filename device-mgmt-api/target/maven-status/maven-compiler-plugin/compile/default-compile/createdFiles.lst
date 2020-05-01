@@ -1,0 +1,14 @@
+com/tma/apa/training/device/mgmt/vo/DeviceHolderPagingVO.class
+com/tma/apa/training/device/mgmt/entity/DeviceHolder.class
+com/tma/apa/training/device/mgmt/exception/DeviceException.class
+com/tma/apa/training/device/mgmt/entity/ConnectionMechanism.class
+com/tma/apa/training/device/mgmt/vo/DeviceVO.class
+com/tma/apa/training/device/mgmt/entity/Device.class
+com/tma/apa/training/device/mgmt/service/DeviceService.class
+com/tma/apa/training/device/mgmt/dao/DeviceDAO.class
+com/tma/apa/training/device/mgmt/vo/DeviceHolderVO.class
+com/tma/apa/training/device/mgmt/exception/DeviceHolderException.class
+com/tma/apa/training/device/mgmt/service/DeviceHolderService.class
+com/tma/apa/training/device/mgmt/exception/DeviceMgtException.class
+com/tma/apa/training/device/mgmt/vo/DevicePagingVO.class
+com/tma/apa/training/device/mgmt/dao/DeviceHolderDAO.class

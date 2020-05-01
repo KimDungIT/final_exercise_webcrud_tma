@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blueprint xmlns="http://www.osgi.org/xmlns/blueprint/v1.0.0"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:jaxrs="http://cxf.apache.org/blueprint/jaxrs"
+           xmlns:cxf="http://cxf.apache.org/blueprint/core"
+           xsi:schemaLocation="
+             http://www.osgi.org/xmlns/blueprint/v1.0.0 http://www.osgi.org/xmlns/blueprint/v1.0.0/blueprint.xsd
+             http://cxf.apache.org/blueprint/jaxrs http://cxf.apache.org/schemas/blueprint/jaxrs.xsd
+             http://cxf.apache.org/blueprint/core http://cxf.apache.org/schemas/blueprint/core.xsd
+             ">
+
+    <cxf:bus>
+        <cxf:features>
+            <cxf:logging/>
+        </cxf:features>
+    </cxf:bus>
+
+    <jaxrs:server id="deviceRest" address="/v1">
+        <jaxrs:serviceBeans>
+            <ref component-id="deviceHolderRestImpl"/>
+            <ref component-id="deviceRestImpl"/>
+        </jaxrs:serviceBeans>
+        <jaxrs:providers>
+            <ref component-id="jsonProvider"/>
+            <ref component-id="jacksonContextResolver"/>
+        </jaxrs:providers>
+    </jaxrs:server>
+
+    <bean id="jsonProvider" class="com.fasterxml.jackson.jaxrs.json.JacksonJsonProvider"/>
+    <bean id="jacksonContextResolver" class="com.tma.apa.training.device.mgmt.rest.provider.JacksonContextResolver"/>
+
+    <bean id="deviceHolderRestImpl" class="com.tma.apa.training.device.mgmt.rest.resource.impl.DeviceHolderRestResourceImpl">
+        <argument ref="deviceHolderService" />
+    </bean>
+
+    <bean id="deviceRestImpl" class="com.tma.apa.training.device.mgmt.rest.resource.impl.DeviceRestResourceImpl">
+        <argument ref="deviceService" />
+    </bean>
+
+    <reference id="deviceHolderService" interface="com.tma.apa.training.device.mgmt.service.DeviceHolderService" availability="mandatory"/>
+    <reference id="deviceService" interface="com.tma.apa.training.device.mgmt.service.DeviceService" availability="mandatory"/>
+
+</blueprint>

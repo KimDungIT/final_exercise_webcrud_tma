@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="impl.service.DeviceServiceImplTest" time="0.006" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/test-classes:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/classes:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/target/device-mgmt-api-1.0-SNAPSHOT.jar:/home/tminhdo/.m2/repository/org/hibernate/hibernate-core/5.4.4.Final/hibernate-core-5.4.4.Final.jar:/home/tminhdo/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/tminhdo/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/tminhdo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/tminhdo/.m2/repository/net/bytebuddy/byte-buddy/1.9.11/byte-buddy-1.9.11.jar:/home/tminhdo/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/tminhdo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/tminhdo/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/tminhdo/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/tminhdo/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/tminhdo/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/tminhdo/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/home/tminhdo/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/tminhdo/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar:/home/tminhdo/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/tminhdo/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tminhdo/.m2/repository/org/apache/cxf/cxf-core/3.3.4/cxf-core-3.3.4.jar:/home/tminhdo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar:/home/tminhdo/.m2/repository/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar:/home/tminhdo/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar:/home/tminhdo/.m2/repository/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar:/home/tminhdo/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar:/home/tminhdo/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/home/tminhdo/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar:/home/tminhdo/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/home/tminhdo/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.4/xmlschema-core-2.2.4.jar:/home/tminhdo/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/home/tminhdo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar:/home/tminhdo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/tminhdo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tminhdo/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Linux"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/amd64"/>
+    <property name="sun.java.command" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/surefire/surefirebooter6670806359163435233.jar /home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/surefire 2020-04-29T06-57-52_008-jvmRun1 surefire2531799600362784404tmp surefire_05278594856182786351tmp"/>
+    <property name="surefire.test.class.path" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/test-classes:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/classes:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/target/device-mgmt-api-1.0-SNAPSHOT.jar:/home/tminhdo/.m2/repository/org/hibernate/hibernate-core/5.4.4.Final/hibernate-core-5.4.4.Final.jar:/home/tminhdo/.m2/repository/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar:/home/tminhdo/.m2/repository/javax/persistence/javax.persistence-api/2.2/javax.persistence-api-2.2.jar:/home/tminhdo/.m2/repository/org/javassist/javassist/3.24.0-GA/javassist-3.24.0-GA.jar:/home/tminhdo/.m2/repository/net/bytebuddy/byte-buddy/1.9.11/byte-buddy-1.9.11.jar:/home/tminhdo/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/tminhdo/.m2/repository/org/jboss/spec/javax/transaction/jboss-transaction-api_1.2_spec/1.1.1.Final/jboss-transaction-api_1.2_spec-1.1.1.Final.jar:/home/tminhdo/.m2/repository/org/jboss/jandex/2.0.5.Final/jandex-2.0.5.Final.jar:/home/tminhdo/.m2/repository/com/fasterxml/classmate/1.3.4/classmate-1.3.4.jar:/home/tminhdo/.m2/repository/javax/activation/javax.activation-api/1.2.0/javax.activation-api-1.2.0.jar:/home/tminhdo/.m2/repository/org/dom4j/dom4j/2.1.1/dom4j-2.1.1.jar:/home/tminhdo/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.1.0.Final/hibernate-commons-annotations-5.1.0.Final.jar:/home/tminhdo/.m2/repository/javax/xml/bind/jaxb-api/2.3.1/jaxb-api-2.3.1.jar:/home/tminhdo/.m2/repository/org/eclipse/persistence/javax.persistence/2.1.0/javax.persistence-2.1.0.jar:/home/tminhdo/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/home/tminhdo/.m2/repository/com/google/code/gson/gson/2.8.2/gson-2.8.2.jar:/home/tminhdo/.m2/repository/org/apache/cxf/cxf-core/3.3.4/cxf-core-3.3.4.jar:/home/tminhdo/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jaxb-runtime-2.3.2.jar:/home/tminhdo/.m2/repository/org/glassfish/jaxb/txw2/2.3.2/txw2-2.3.2.jar:/home/tminhdo/.m2/repository/com/sun/istack/istack-commons-runtime/3.0.8/istack-commons-runtime-3.0.8.jar:/home/tminhdo/.m2/repository/org/jvnet/staxex/stax-ex/1.8.1/stax-ex-1.8.1.jar:/home/tminhdo/.m2/repository/com/sun/xml/fastinfoset/FastInfoset/1.2.16/FastInfoset-1.2.16.jar:/home/tminhdo/.m2/repository/jakarta/activation/jakarta.activation-api/1.2.1/jakarta.activation-api-1.2.1.jar:/home/tminhdo/.m2/repository/com/fasterxml/woodstox/woodstox-core/5.0.3/woodstox-core-5.0.3.jar:/home/tminhdo/.m2/repository/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.jar:/home/tminhdo/.m2/repository/org/apache/ws/xmlschema/xmlschema-core/2.2.4/xmlschema-core-2.2.4.jar:/home/tminhdo/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/2.3.2/jakarta.xml.bind-api-2.3.2.jar:/home/tminhdo/.m2/repository/javax/ws/rs/javax.ws.rs-api/2.1/javax.ws.rs-api-2.1.jar:/home/tminhdo/.m2/repository/junit/junit/4.12/junit-4.12.jar:/home/tminhdo/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/home/tminhdo/.m2/repository/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/tminhdo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/opt/jdk-8u232-ojdkbuild-linux-x64/jre"/>
+    <property name="basedir" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/target/surefire/surefirebooter6670806359163435233.jar"/>
+    <property name="sun.boot.class.path" value="/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/resources.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/rt.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/sunrsasign.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/jsse.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/jce.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/charsets.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/jfr.jar:/opt/jdk-8u232-ojdkbuild-linux-x64/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_232-09"/>
+    <property name="user.name" value="tminhdo"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="4.15.0-48-generic"/>
+    <property name="java.endorsed.dirs" value="/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="/home/tminhdo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="1.8.0_232"/>
+    <property name="user.dir" value="/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.232-b09"/>
+    <property name="java.ext.dirs" value="/opt/jdk-8u232-ojdkbuild-linux-x64/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testAdd_DeviceAlreadyExist" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testGetByDeviceHolder_ValidInput" classname="impl.service.DeviceServiceImplTest" time="0.001"/>
+  <testcase name="testDeleteByName_DeviceAlreadyExist" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testAdd_MandatoryValueAreMissing" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testDeleteByName_DeviceDoesNotExist" classname="impl.service.DeviceServiceImplTest" time="0.001"/>
+  <testcase name="testDeleteAll" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testGetByName_DeviceNotFound" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testAdd_DeviceHolderDoesNotExist" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testAdd_DeviceNameIsEmpty" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testGetByName" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testGetAll" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testGetByDeviceHolder_InvalidInput" classname="impl.service.DeviceServiceImplTest" time="0.001"/>
+  <testcase name="testAdd_NullDeviceVO" classname="impl.service.DeviceServiceImplTest" time="0"/>
+  <testcase name="testAdd_SuccessCase" classname="impl.service.DeviceServiceImplTest" time="0"/>
+</testsuite>

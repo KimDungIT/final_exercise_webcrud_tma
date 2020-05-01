@@ -1,0 +1,14 @@
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/vo/DeviceVO.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/dao/DeviceHolderDAO.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/exception/DeviceHolderException.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/dao/DeviceDAO.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/entity/DeviceHolder.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/service/DeviceService.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/vo/DeviceHolderVO.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/entity/ConnectionMechanism.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/exception/DeviceMgtException.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/service/DeviceHolderService.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/exception/DeviceException.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/vo/DeviceHolderPagingVO.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/entity/Device.java
+/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-api/src/main/java/com/tma/apa/training/device/mgmt/vo/DevicePagingVO.java

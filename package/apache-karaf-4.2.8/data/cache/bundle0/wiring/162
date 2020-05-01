@@ -1,0 +1,4 @@
+osgi.wiring.package; (&(osgi.wiring.package=javax.xml.bind)(version>=2.0.0)(!(version>=3.0.0)))
+0; version=2.2.8
+osgi.wiring.package; (&(osgi.wiring.package=org.apache.commons.lang3.builder)(version>=3.9.0)(!(version>=4.0.0)))
+125; version=3.9.0
