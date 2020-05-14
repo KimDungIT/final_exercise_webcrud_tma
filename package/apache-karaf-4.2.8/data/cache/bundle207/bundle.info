@@ -1,6 +1,6 @@
 207
-mvn:org.eclipse.jetty/jetty-rewrite/9.4.22.v20191022
+mvn:org.hibernate.common/hibernate-commons-annotations/5.1.0.Final
 32
-30
-1588123986288
+80
+1589427060436
 0

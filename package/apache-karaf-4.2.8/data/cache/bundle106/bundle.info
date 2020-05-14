@@ -1,6 +1,6 @@
 106
-wrap:mvn:org.dom4j/dom4j/2.1.1
+mvn:org.apache.cxf/cxf-rt-bindings-xml/3.3.5
 32
-80
-1588123974122
+40
+1589427059492
 0

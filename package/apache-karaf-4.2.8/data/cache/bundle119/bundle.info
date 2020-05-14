@@ -1,6 +1,6 @@
 119
-mvn:javax.servlet/javax.servlet-api/3.1.0
+mvn:org.apache.cxf/cxf-rt-rs-client/3.3.5
 32
-30
-1588123985878
+40
+1589427059605
 0

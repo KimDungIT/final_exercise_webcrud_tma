@@ -1,6 +1,6 @@
 144
-mvn:org.apache.cxf/cxf-rt-rs-extension-providers/3.3.5
+mvn:org.apache.karaf.deployer/org.apache.karaf.deployer.blueprint/4.2.8
 32
-40
-1588123986004
+24
+1589427059804
 0

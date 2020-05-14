@@ -1,6 +1,11 @@
-com/tma/apa/training/device/mgmt/impl/persistence/PersistenceUtil.class
-com/tma/apa/training/device/mgmt/impl/util/ConvertUtils.class
+com/tma/apa/training/device/mgmt/impl/service/ConsumerServiceImpl.class
+com/tma/apa/training/device/mgmt/impl/thread/ConsumerThread.class
 com/tma/apa/training/device/mgmt/impl/dao/DeviceHolderDAOImpl.class
 com/tma/apa/training/device/mgmt/impl/service/DeviceHolderServiceImpl.class
+com/tma/apa/training/device/mgmt/impl/thread/PollMessageThread.class
 com/tma/apa/training/device/mgmt/impl/service/DeviceServiceImpl.class
 com/tma/apa/training/device/mgmt/impl/dao/DeviceDAOImpl.class
+com/tma/apa/training/device/mgmt/impl/persistence/PersistenceUtil.class
+com/tma/apa/training/device/mgmt/impl/consumer/ConsumerCreator.class
+com/tma/apa/training/device/mgmt/impl/util/ConvertUtils.class
+com/tma/apa/training/device/mgmt/impl/producer/ProducerCreator.class

@@ -1,6 +1,6 @@
 146
-mvn:org.apache.cxf/cxf-rt-rs-json-basic/3.3.5
+mvn:org.apache.karaf.jaas.blueprint/org.apache.karaf.jaas.blueprint.config/4.2.8
 32
-40
-1588123986008
+30
+1589427059827
 0

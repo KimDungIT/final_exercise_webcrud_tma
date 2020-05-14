@@ -1,6 +1,6 @@
 157
-mvn:org.apache.cxf/cxf-rt-ws-policy/3.3.5
+mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.javax-inject/1_2
 32
-40
-1588123986030
+80
+1589427059923
 0

@@ -1,6 +1,6 @@
 130
-mvn:org.apache.cxf/cxf-rt-bindings-xml/3.3.5
+mvn:org.apache.cxf/cxf-rt-transports-udp/3.3.5
 32
 40
-1588123985970
+1589427059696
 0

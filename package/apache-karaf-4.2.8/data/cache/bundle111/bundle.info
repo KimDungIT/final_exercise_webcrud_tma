@@ -1,6 +1,6 @@
 111
-mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-base/2.10.1
+mvn:org.apache.cxf/cxf-rt-features-metrics/3.3.5
 32
-35
-1588123985854
+40
+1589427059546
 0

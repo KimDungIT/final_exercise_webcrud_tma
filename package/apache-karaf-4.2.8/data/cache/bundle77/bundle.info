@@ -1,6 +1,6 @@
 77
-mvn:org.ops4j.pax.jdbc/pax-jdbc/1.4.4
+mvn:net.sf.ehcache/ehcache/2.10.6
 32
-80
-1588123973447
+40
+1589427059031
 0

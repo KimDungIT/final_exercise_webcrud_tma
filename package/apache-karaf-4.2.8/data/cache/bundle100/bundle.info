@@ -1,6 +1,6 @@
 100
-mvn:org.hibernate/hibernate-core/5.4.2.Final
+mvn:org.apache.commons/commons-dbcp2/2.1.1
 32
 80
-1588123974085
+1589427059432
 0

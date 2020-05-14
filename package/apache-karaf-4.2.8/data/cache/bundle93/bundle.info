@@ -1,6 +1,6 @@
 93
-mvn:org.apache.aries.transaction/org.apache.aries.transaction.blueprint/1.1.1
+mvn:org.apache.aries.jpa/org.apache.aries.jpa.support/2.7.2
 32
-80
-1588123974075
+30
+1589427059352
 0

@@ -1,6 +1,6 @@
 122
-mvn:net.sf.ehcache/ehcache/2.10.6
+mvn:org.apache.cxf/cxf-rt-rs-json-basic/3.3.5
 32
 40
-1588123985885
+1589427059632
 0

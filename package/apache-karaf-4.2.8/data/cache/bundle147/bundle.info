@@ -1,6 +1,6 @@
 147
-mvn:org.apache.cxf/cxf-rt-rs-service-description/3.3.5
+mvn:org.apache.karaf.jdbc/org.apache.karaf.jdbc.core/4.2.8
 32
-40
-1588123986010
+80
+1589427059832
 0

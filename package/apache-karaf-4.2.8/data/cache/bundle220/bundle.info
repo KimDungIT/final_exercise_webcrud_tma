@@ -1,6 +1,6 @@
 220
-mvn:org.eclipse.jetty.websocket/javax-websocket-server-impl/9.4.22.v20191022
+mvn:org.ops4j.pax.jdbc/pax-jdbc-mariadb/1.4.4
 32
-30
-1588123986320
+80
+1589427060592
 0

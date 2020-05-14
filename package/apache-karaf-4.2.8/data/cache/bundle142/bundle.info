@@ -1,6 +1,6 @@
 142
-mvn:org.apache.cxf/cxf-rt-management/3.3.5
+mvn:org.apache.geronimo.specs/geronimo-osgi-registry/1.1
 32
-40
-1588123985999
+9
+1589427059796
 0

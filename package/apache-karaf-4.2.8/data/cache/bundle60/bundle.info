@@ -1,6 +1,6 @@
 60
-mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.cglib/3.3.0_1
+mvn:com.sun.istack/istack-commons-runtime/3.0.7
 32
-80
-1588123964383
+20
+1589427058851
 0

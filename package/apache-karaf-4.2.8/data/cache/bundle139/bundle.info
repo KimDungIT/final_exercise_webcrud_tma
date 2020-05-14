@@ -1,6 +1,6 @@
 139
-mvn:org.apache.cxf/cxf-rt-frontend-js/3.3.5
+mvn:org.apache.felix/org.apache.felix.scr/2.1.16
 32
-40
-1588123985993
+30
+1589427059752
 0

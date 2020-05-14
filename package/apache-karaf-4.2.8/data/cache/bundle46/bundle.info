@@ -1,6 +1,6 @@
 46
-file:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/package/apache-karaf-4.2.8/deploy/device-mgmt-api-1.0-SNAPSHOT.jar
-8
+mvn:org.ops4j.pax.jdbc/pax-jdbc/1.4.4
+32
 80
-1588123904442
+1589427051054
 0

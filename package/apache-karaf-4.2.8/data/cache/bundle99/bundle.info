@@ -1,6 +1,6 @@
 99
-mvn:org.hibernate.common/hibernate-commons-annotations/5.1.0.Final
+mvn:org.apache.commons/commons-pool2/2.6.2
 32
 80
-1588123974083
+1589427059415
 0

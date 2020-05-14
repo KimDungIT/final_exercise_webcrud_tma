@@ -7,7 +7,6 @@ import com.tma.apa.training.device.mgmt.vo.DevicePagingVO;
 import com.tma.apa.training.device.mgmt.vo.DeviceVO;
 
 import javax.ws.rs.core.Response;
-import java.util.List;
 
 public class DeviceRestResourceImpl implements DeviceRestResource {
 
@@ -30,6 +29,17 @@ public class DeviceRestResourceImpl implements DeviceRestResource {
     public Response getDevicesByDeviceHolder(String deviceHolderName, int page, int limit) {
         DevicePagingVO result = m_deviceService.getByDeviceHolder(deviceHolderName, page, limit);
         return Response.status(200).entity(result).build();
+    }
+
+    @Override
+    public Response sendNotification() {
+        try {
+            // sendNotification
+            m_deviceService.sendNotification();
+            return RestUtil.printPassResponse("Send message successfully");
+        } catch (Exception e) {
+            return RestUtil.printFailResponse("Send message fail", e);
+        }
     }
 
     @Override

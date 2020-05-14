@@ -1,11 +1,9 @@
 package com.tma.apa.training.device.mgmt.impl.dao;
 
-import com.tma.apa.training.device.mgmt.entity.ConnectionMechanism;
-import com.tma.apa.training.device.mgmt.impl.persistence.PersistenceUtil;
+import com.tma.apa.training.device.mgmt.dao.DeviceDAO;
 import com.tma.apa.training.device.mgmt.entity.Device;
 import com.tma.apa.training.device.mgmt.entity.DeviceHolder;
-import com.tma.apa.training.device.mgmt.dao.DeviceDAO;
-import com.tma.apa.training.device.mgmt.vo.DeviceVO;
+import com.tma.apa.training.device.mgmt.impl.persistence.PersistenceUtil;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Query;

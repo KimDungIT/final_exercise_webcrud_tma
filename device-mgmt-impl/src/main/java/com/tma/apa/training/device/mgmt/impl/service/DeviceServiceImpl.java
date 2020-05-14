@@ -1,20 +1,26 @@
 package com.tma.apa.training.device.mgmt.impl.service;
 
+import com.tma.apa.training.device.mgmt.constant.KafkaConstant;
 import com.tma.apa.training.device.mgmt.dao.DeviceDAO;
 import com.tma.apa.training.device.mgmt.dao.DeviceHolderDAO;
 import com.tma.apa.training.device.mgmt.entity.Device;
 import com.tma.apa.training.device.mgmt.entity.DeviceHolder;
 import com.tma.apa.training.device.mgmt.exception.DeviceException;
 import com.tma.apa.training.device.mgmt.exception.DeviceHolderException;
+import com.tma.apa.training.device.mgmt.exception.ProducerException;
+import com.tma.apa.training.device.mgmt.impl.producer.ProducerCreator;
 import com.tma.apa.training.device.mgmt.impl.util.ConvertUtils;
 import com.tma.apa.training.device.mgmt.service.DeviceService;
 import com.tma.apa.training.device.mgmt.vo.DevicePagingVO;
 import com.tma.apa.training.device.mgmt.vo.DeviceVO;
 import org.apache.cxf.common.util.StringUtils;
+import org.apache.kafka.clients.producer.Producer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+import org.apache.kafka.clients.producer.RecordMetadata;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
+import java.util.concurrent.ExecutionException;
 
 public class DeviceServiceImpl implements DeviceService {
 
@@ -132,5 +138,33 @@ public class DeviceServiceImpl implements DeviceService {
         m_deviceDAO.deleteAll();
     }
 
+    @Override
+    public void sendNotification() throws ProducerException {
 
+        List<DeviceVO> deviceVOS = getAll();
+        Producer<String, String> producer = ProducerCreator.createProducer();
+        if (producer == null) {
+            throw new ProducerException("Can not create producer");
+        }
+        if(deviceVOS.size() == 0) {
+            throw new ProducerException("Empty notification");
+        }
+        for (DeviceVO deviceVO : deviceVOS) {
+            final ProducerRecord<String, String> record = new ProducerRecord<>(
+                    KafkaConstant.TOPIC_NAME,
+                    "key:" + deviceVO.getName(),
+                    "device-name:" + deviceVO.getName());
+            try {
+                RecordMetadata metadata = producer.send(record).get();
+                System.out.println("Record sent with key " + deviceVO.getName() + " to partition " + metadata.partition()
+                        + " with offset " + metadata.offset());
+            } catch (ExecutionException e) {
+                System.out.println("Error in sending record");
+                System.out.println(e);
+            } catch (InterruptedException e) {
+                System.out.println("Error in sending record");
+                System.out.println(e);
+            }
+        }
+    }
 }

@@ -1,6 +1,6 @@
 241
-webbundle:file:/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/package/apache-karaf-4.2.8/deploy/.war?Web-ContextPath=&Bundle-SymbolicName=&Bundle-Version=0.0.0
-8
-80
-1588124075564
+mvn:org.ops4j.pax.web/pax-web-jsp/7.2.14
+32
+30
+1589427083860
 0

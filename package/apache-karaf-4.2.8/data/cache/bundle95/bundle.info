@@ -1,6 +1,6 @@
 95
-mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.blueprintstate/4.2.8
+mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.2.3
 32
 30
-1588123974078
+1589427059364
 0

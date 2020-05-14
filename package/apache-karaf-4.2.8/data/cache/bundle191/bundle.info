@@ -1,6 +1,6 @@
 191
-mvn:org.apache.wss4j/wss4j-ws-security-dom/2.2.4
+mvn:org.eclipse.jetty/jetty-security/9.4.22.v20191022
 32
 30
-1588123986218
+1589427060335
 0

@@ -1,6 +1,6 @@
 183
-mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xmlresolver/1.2_5
+mvn:org.eclipse.jetty/jetty-http/9.4.22.v20191022
 32
-25
-1588123986198
+30
+1589427060285
 0

@@ -1,6 +1,11 @@
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/service/DeviceHolderServiceImpl.java
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/persistence/PersistenceUtil.java
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/util/ConvertUtils.java
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/dao/DeviceHolderDAOImpl.java
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/service/DeviceServiceImpl.java
-/home/tminhdo/Desktop/DeviceMgmt/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/dao/DeviceDAOImpl.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/consumer/ConsumerCreator.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/thread/ConsumerThread.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/persistence/PersistenceUtil.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/service/DeviceHolderServiceImpl.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/dao/DeviceDAOImpl.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/util/ConvertUtils.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/service/ConsumerServiceImpl.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/service/DeviceServiceImpl.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/thread/PollMessageThread.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/producer/ProducerCreator.java
+/home/nktoan/share/device-mgmt/device-mgmt-impl/src/main/java/com/tma/apa/training/device/mgmt/impl/dao/DeviceHolderDAOImpl.java

@@ -1,6 +1,6 @@
 160
-mvn:org.apache.cxf/cxf-rt-wsdl/3.3.5
+mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.opensaml/3.3.0_2
 32
-40
-1588123986044
+25
+1589427059980
 0

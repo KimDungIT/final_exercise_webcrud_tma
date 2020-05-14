@@ -1,6 +1,6 @@
 48
-mvn:javax.enterprise/cdi-api/1.2
+mvn:org.ops4j.pax.jdbc/pax-jdbc-pool-common/1.4.4
 32
 80
-1588123964354
+1589427051080
 0

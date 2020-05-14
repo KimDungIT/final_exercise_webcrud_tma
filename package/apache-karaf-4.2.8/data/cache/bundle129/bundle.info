@@ -1,6 +1,6 @@
 129
-mvn:org.apache.cxf/cxf-rt-bindings-soap/3.3.5
+mvn:org.apache.cxf/cxf-rt-transports-local/3.3.5
 32
 40
-1588123985967
+1589427059687
 0

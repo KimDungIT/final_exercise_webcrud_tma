@@ -40,7 +40,9 @@
                             com.tma.apa.training.device.mgmt.entity,
                             com.tma.apa.training.device.mgmt.exception,
                             com.tma.apa.training.device.mgmt.service,
-                            com.tma.apa.training.device.mgmt.vo
+                            com.tma.apa.training.device.mgmt.vo,
+                            com.tma.apa.training.device.mgmt.constant,
+                            org.apache.ws.commons.schema
                         </Export-Package>
                         <Import-Package>
                             javax.persistence;version="[2,3)",

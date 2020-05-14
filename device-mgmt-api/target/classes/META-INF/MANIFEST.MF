@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1588123673081
-Build-Jdk: 1.8.0_232
-Built-By: tminhdo
+Bnd-LastModified: 1589426963683
+Build-Jdk: 1.8.0_211
+Built-By: nktoan
 Bundle-ManifestVersion: 2
 Bundle-Name: device-management/device-mgmt-api
 Bundle-SymbolicName: com.tma.apa.training.device.management.device-mgmt-
@@ -15,7 +15,9 @@ Export-Package: com.tma.apa.training.device.mgmt.dao;uses:="com.tma.apa.
  com.tma.apa.training.device.mgmt.service;uses:="com.tma.apa.training.de
  vice.mgmt.exception,com.tma.apa.training.device.mgmt.vo";version="1.0.0
  .SNAPSHOT",com.tma.apa.training.device.mgmt.vo;uses:="com.tma.apa.train
- ing.device.mgmt.entity";version="1.0.0.SNAPSHOT"
+ ing.device.mgmt.entity";version="1.0.0.SNAPSHOT",com.tma.apa.training.d
+ evice.mgmt.constant;version="1.0.0.SNAPSHOT",org.apache.ws.commons.sche
+ ma;version="1.0.0.SNAPSHOT"
 Import-Package: javax.persistence;version="[2,3)",com.tma.apa.training.d
  evice.mgmt.entity,com.tma.apa.training.device.mgmt.exception,com.tma.ap
  a.training.device.mgmt.vo,org.hibernate.annotations;version="[5.4,6)",o

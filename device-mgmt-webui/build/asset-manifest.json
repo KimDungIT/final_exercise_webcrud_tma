@@ -1,27 +1,27 @@
 {
   "files": {
     "main.css": "http://localhost:8181/static/css/main.8099afc1.chunk.css",
-    "main.js": "http://localhost:8181/static/js/main.a33f6824.chunk.js",
-    "main.js.map": "http://localhost:8181/static/js/main.a33f6824.chunk.js.map",
+    "main.js": "http://localhost:8181/static/js/main.90e20d1d.chunk.js",
+    "main.js.map": "http://localhost:8181/static/js/main.90e20d1d.chunk.js.map",
     "runtime-main.js": "http://localhost:8181/static/js/runtime-main.68641dc5.js",
     "runtime-main.js.map": "http://localhost:8181/static/js/runtime-main.68641dc5.js.map",
     "static/css/2.a43b59a1.chunk.css": "http://localhost:8181/static/css/2.a43b59a1.chunk.css",
-    "static/js/2.5b53bc53.chunk.js": "http://localhost:8181/static/js/2.5b53bc53.chunk.js",
-    "static/js/2.5b53bc53.chunk.js.map": "http://localhost:8181/static/js/2.5b53bc53.chunk.js.map",
+    "static/js/2.2f9c2a18.chunk.js": "http://localhost:8181/static/js/2.2f9c2a18.chunk.js",
+    "static/js/2.2f9c2a18.chunk.js.map": "http://localhost:8181/static/js/2.2f9c2a18.chunk.js.map",
     "index.html": "http://localhost:8181/index.html",
-    "precache-manifest.ab4c4f98ba496f69cabacea9f308d04b.js": "http://localhost:8181/precache-manifest.ab4c4f98ba496f69cabacea9f308d04b.js",
+    "precache-manifest.fcd6553c95fdf0edb2154bd915bad2cf.js": "http://localhost:8181/precache-manifest.fcd6553c95fdf0edb2154bd915bad2cf.js",
     "service-worker.js": "http://localhost:8181/service-worker.js",
     "static/css/2.a43b59a1.chunk.css.map": "http://localhost:8181/static/css/2.a43b59a1.chunk.css.map",
     "static/css/main.8099afc1.chunk.css.map": "http://localhost:8181/static/css/main.8099afc1.chunk.css.map",
-    "static/js/2.5b53bc53.chunk.js.LICENSE.txt": "http://localhost:8181/static/js/2.5b53bc53.chunk.js.LICENSE.txt",
+    "static/js/2.2f9c2a18.chunk.js.LICENSE.txt": "http://localhost:8181/static/js/2.2f9c2a18.chunk.js.LICENSE.txt",
     "static/media/clound_icon.png": "http://localhost:8181/static/media/clound_icon.54efc303.png",
     "static/media/connection.png": "http://localhost:8181/static/media/connection.2d38da41.png"
   },
   "entrypoints": [
     "static/js/runtime-main.68641dc5.js",
     "static/css/2.a43b59a1.chunk.css",
-    "static/js/2.5b53bc53.chunk.js",
+    "static/js/2.2f9c2a18.chunk.js",
     "static/css/main.8099afc1.chunk.css",
-    "static/js/main.a33f6824.chunk.js"
+    "static/js/main.90e20d1d.chunk.js"
   ]
 }

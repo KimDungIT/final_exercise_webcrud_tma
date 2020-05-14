@@ -1,6 +1,6 @@
 116
-mvn:io.dropwizard.metrics/metrics-core/3.2.6
+mvn:org.apache.cxf/cxf-rt-frontend-simple/3.3.5
 32
-25
-1588123985871
+40
+1589427059588
 0

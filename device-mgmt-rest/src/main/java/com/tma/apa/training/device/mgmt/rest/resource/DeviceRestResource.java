@@ -30,6 +30,11 @@ public interface DeviceRestResource {
                                       @DefaultValue("1") @QueryParam("page") int page,
                                       @DefaultValue("20") @QueryParam("limit") int limit);
 
+    @GET
+    @Path("/status")
+    @Produces(MediaType.APPLICATION_JSON)
+    Response sendNotification();
+
     @POST
     @Path("/")
     @Produces(MediaType.APPLICATION_JSON)

@@ -1,6 +1,6 @@
 65
-mvn:org.ow2.asm/asm/7.2
+mvn:org.javassist/javassist/3.24.0-GA
 32
-20
-1588123964413
+80
+1589427058882
 0

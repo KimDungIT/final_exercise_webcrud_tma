@@ -1,6 +1,6 @@
 109
-mvn:com.fasterxml.jackson.core/jackson-databind/2.10.1
+mvn:org.apache.cxf/cxf-rt-features-clustering/3.3.5
 32
-35
-1588123985846
+40
+1589427059521
 0

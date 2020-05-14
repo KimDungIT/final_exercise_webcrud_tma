@@ -37,7 +37,7 @@
         <dependency>
             <groupId>org.apache.cxf</groupId>
             <artifactId>cxf-core</artifactId>
-            <version>3.3.4</version>
+            <version>${cxf.version}</version>
         </dependency>
         <dependency>
             <groupId>javax.ws.rs</groupId>
@@ -57,6 +57,18 @@
             <version>1.10.19</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka_2.12</artifactId>
+            <version>1.1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>1.7.21</version>
+        </dependency>
+
     </dependencies>
 
     <build>
@@ -68,11 +80,17 @@
                 <configuration>
                     <instructions combine.children="append">
                         <Bundle-Version>${project.version}</Bundle-Version>
-                        <Export-Package>com.tma.apa.training.device.mgmt.impl.service</Export-Package>
+                        <Export-Package>
+                            com.tma.apa.training.device.mgmt.impl.service
+                        </Export-Package>
                         <Meta-Persistence>META-INF/persistence.xml</Meta-Persistence>
                         <Import-Package>
                             javax.persistence;version="[2,3)",
                             !com.google.gson,
+                            !org.apache.ws.commons.schema;version"[2.2,3]",
+                            org.apache.cxf.common.util;version="[3.3,4)",
+                            org.apache.kafka.clients.producer,
+                            org.apache.kafka.common.serialization,
                             *
                         </Import-Package>
                         <Embed-Dependency>gson</Embed-Dependency>

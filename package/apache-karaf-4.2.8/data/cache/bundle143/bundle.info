@@ -1,6 +1,6 @@
 143
-mvn:org.apache.cxf/cxf-rt-rs-client/3.3.5
+mvn:org.apache.karaf.bundle/org.apache.karaf.bundle.blueprintstate/4.2.8
 32
-40
-1588123986001
+30
+1589427059801
 0

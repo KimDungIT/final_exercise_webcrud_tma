@@ -1,6 +1,6 @@
 161
-mvn:org.apache.cxf.karaf/cxf-karaf-commands/3.3.5
+mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.rhino/1.7R2_3
 32
 40
-1588123986046
+1589427060040
 0

@@ -1,6 +1,6 @@
 233
-mvn:org.apache.karaf.web/org.apache.karaf.web.core/4.2.8
+wrap:mvn:org.dom4j/dom4j/2.1.1
 32
-30
-1588124052314
+80
+1589427060742
 0

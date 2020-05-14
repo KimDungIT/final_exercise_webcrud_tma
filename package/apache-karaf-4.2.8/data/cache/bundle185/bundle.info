@@ -1,6 +1,6 @@
 185
-mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxrs-api-2.1/2.9.1
+mvn:org.eclipse.jetty/jetty-jaas/9.4.22.v20191022
 32
-10
-1588123986201
+30
+1589427060296
 0

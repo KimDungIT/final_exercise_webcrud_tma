@@ -1,6 +1,6 @@
 75
-mvn:org.ops4j.pax.transx/pax-transx-tm-geronimo/0.4.4
+wrap:mvn:org.apache.kafka/kafka-clients/1.1.0$Bundle-SymbolicName=kafka-client&Bundle-Version=1.1.0
 32
 80
-1588123964445
+1589427058963
 0

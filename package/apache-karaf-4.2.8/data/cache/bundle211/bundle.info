@@ -1,6 +1,6 @@
 211
-mvn:org.eclipse.jetty/jetty-servlet/9.4.22.v20191022
+mvn:org.jboss.logging/jboss-logging/3.3.2.Final
 32
-30
-1588123986300
+80
+1589427060545
 0

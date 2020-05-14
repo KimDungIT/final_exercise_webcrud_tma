@@ -1,6 +1,6 @@
 112
-mvn:com.fasterxml.jackson.jaxrs/jackson-jaxrs-json-provider/2.10.1
+mvn:org.apache.cxf/cxf-rt-features-throttling/3.3.5
 32
-35
-1588123985856
+40
+1589427059552
 0

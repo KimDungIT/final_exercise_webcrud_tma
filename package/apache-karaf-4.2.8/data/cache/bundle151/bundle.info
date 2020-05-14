@@ -1,6 +1,6 @@
 151
-mvn:org.apache.cxf/cxf-rt-transports-http-jetty/3.3.5
+mvn:org.apache.mina/mina-core/2.0.21
 32
-40
-1588123986019
+80
+1589427059852
 0

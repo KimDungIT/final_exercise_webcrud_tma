@@ -1,6 +1,6 @@
 234
-mvn:org.eclipse.jdt.core.compiler/ecj/4.5.1
+mvn:org.apache.karaf.web/org.apache.karaf.web.core/4.2.8
 32
 30
-1588124052317
+1589427083765
 0

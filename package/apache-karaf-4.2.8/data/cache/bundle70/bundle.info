@@ -1,6 +1,6 @@
 70
-mvn:org.ops4j.pax.jdbc/pax-jdbc-config/1.4.4
+mvn:javax.persistence/javax.persistence-api/2.2
 32
 80
-1588123964428
+1589427058922
 0

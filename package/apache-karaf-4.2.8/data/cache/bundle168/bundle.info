@@ -1,6 +1,6 @@
 168
-mvn:org.apache.karaf.scr/org.apache.karaf.scr.management/4.2.8
+mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.saaj-api-1.3/2.9.0
 32
-30
-1588123986067
+10
+1589427060191
 0

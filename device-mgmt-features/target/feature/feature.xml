@@ -17,6 +17,10 @@
         <feature dependency="true">aries-blueprint</feature>
         <feature version="[2,3)">jpa</feature>
         <feature version="[5,6)">hibernate</feature>
+        <bundle dependency="true">mvn:org.apache.ws.xmlschema/xmlschema-core/2.2.5</bundle>
+        <bundle dependency="true">mvn:org.apache.cxf/cxf-core/3.3.5</bundle>
+<!--        <bundle dependency="true">mvn:org.apache.kafka/kafka-client/1.1.0</bundle>-->
+        <bundle><![CDATA[wrap:mvn:org.apache.kafka/kafka-clients/1.1.0$Bundle-SymbolicName=kafka-client&Bundle-Version=1.1.0]]></bundle>
         <bundle>mvn:com.tma.apa.training.device.management/device-mgmt-api/1.0-SNAPSHOT</bundle>
     </feature>
 

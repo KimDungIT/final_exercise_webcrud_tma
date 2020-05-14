@@ -1,6 +1,6 @@
 89
-mvn:org.apache.aries.jpa/org.apache.aries.jpa.blueprint/2.7.2
+mvn:org.apache.aries.jpa/org.apache.aries.jpa.api/2.7.2
 32
 30
-1588123974069
+1589427059295
 0

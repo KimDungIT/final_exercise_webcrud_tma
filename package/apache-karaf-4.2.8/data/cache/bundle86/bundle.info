@@ -1,6 +1,6 @@
 86
-mvn:org.apache.aries.jmx/org.apache.aries.jmx.blueprint.api/1.2.0
+mvn:org.apache.aries.jndi/org.apache.aries.jndi.legacy.support/1.0.0
 32
 30
-1588123974061
+1589427059244
 0

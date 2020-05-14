@@ -1,7 +1,7 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1588123676012
-Build-Jdk: 1.8.0_232
-Built-By: tminhdo
+Bnd-LastModified: 1589426967574
+Build-Jdk: 1.8.0_211
+Built-By: nktoan
 Bundle-Blueprint: OSGI-INF/blueprint/service.xml
 Bundle-ClassPath: .,gson-2.8.2.jar
 Bundle-ManifestVersion: 2
@@ -18,23 +18,26 @@ Export-Package: com.tma.apa.training.device.mgmt.impl.service;uses:="com
  .tma.apa.training.device.mgmt.dao,com.tma.apa.training.device.mgmt.exce
  ption,com.tma.apa.training.device.mgmt.service,com.tma.apa.training.dev
  ice.mgmt.vo";version="1.0.0.SNAPSHOT"
-Import-Package: javax.persistence;version="[2,3)",com.tma.apa.training.d
- evice.mgmt.dao;version="[1.0,2)",com.tma.apa.training.device.mgmt.entit
- y;version="[1.0,2)",com.tma.apa.training.device.mgmt.exception;version=
- "[1.0,2)",com.tma.apa.training.device.mgmt.service;version="[1.0,2)",co
- m.tma.apa.training.device.mgmt.vo;version="[1.0,2)",javax.transaction;v
- ersion="[1.2,2)",org.apache.cxf.common.util;version="[3.3,4)",org.osgi.
- service.blueprint;version="[1.0.0,2.0.0)",sun.misc,org.hibernate.proxy;
- resolution:=optional;version="[5.4,6)",javassist.util.proxy;resolution:
- =optional;version="[3.24,4)"
-Include-Resource: gson-2.8.2.jar=/home/tminhdo/.m2/repository/com/google
- /code/gson/gson/2.8.2/gson-2.8.2.jar,META-INF/persistence.xml=src/main/
- resources/META-INF/persistence.xml,OSGI-INF/blueprint/service.xml=src/m
- ain/resources/OSGI-INF/blueprint/service.xml
+Import-Package: javax.persistence;version="[2,3)",org.apache.cxf.common.
+ util;version="[3.3,4)",org.apache.kafka.clients.producer,org.apache.kaf
+ ka.common.serialization,com.tma.apa.training.device.mgmt.dao;version="[
+ 1.0,2)",com.tma.apa.training.device.mgmt.entity;version="[1.0,2)",com.t
+ ma.apa.training.device.mgmt.exception;version="[1.0,2)",com.tma.apa.tra
+ ining.device.mgmt.service;version="[1.0,2)",com.tma.apa.training.device
+ .mgmt.vo;version="[1.0,2)",javax.transaction;version="[1.2,2)",org.apac
+ he.kafka.clients.consumer,org.osgi.service.blueprint;version="[1.0.0,2.
+ 0.0)",sun.misc,org.hibernate.proxy;resolution:=optional;version="[5.4,6
+ )",javassist.util.proxy;resolution:=optional;version="[3.24,4)"
+Include-Resource: gson-2.8.2.jar=/home/nktoan/.m2/repository/com/google/
+ code/gson/gson/2.8.2/gson-2.8.2.jar,META-INF/persistence.xml=src/main/r
+ esources/META-INF/persistence.xml,OSGI-INF/blueprint/service.xml=src/ma
+ in/resources/OSGI-INF/blueprint/service.xml
 Meta-Persistence: META-INF/persistence.xml
 Private-Package: com.tma.apa.training.device.mgmt.impl.persistence,com.t
- ma.apa.training.device.mgmt.impl.util,com.tma.apa.training.device.mgmt.
- impl.dao,com.google.gson,com.google.gson.annotations,com.google.gson.in
- ternal,com.google.gson.internal.bind,com.google.gson.internal.bind.util
- ,com.google.gson.reflect,com.google.gson.stream
+ ma.apa.training.device.mgmt.impl.producer,com.tma.apa.training.device.m
+ gmt.impl.thread,com.tma.apa.training.device.mgmt.impl.consumer,com.tma.
+ apa.training.device.mgmt.impl.dao,com.tma.apa.training.device.mgmt.impl
+ .util,com.google.gson,com.google.gson.annotations,com.google.gson.inter
+ nal,com.google.gson.internal.bind,com.google.gson.internal.bind.util,co
+ m.google.gson.reflect,com.google.gson.stream
 Tool: Bnd-4.2.0.201903051501

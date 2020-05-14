@@ -1,6 +1,6 @@
 209
-mvn:org.eclipse.jetty/jetty-jaspi/9.4.22.v20191022
+mvn:org.hibernate/hibernate-osgi/5.4.2.Final
 32
-30
-1588123986293
+80
+1589427060535
 0

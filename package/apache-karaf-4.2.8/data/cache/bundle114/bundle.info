@@ -1,6 +1,6 @@
 114
-mvn:com.google.guava/guava/20.0
+mvn:org.apache.cxf/cxf-rt-frontend-jaxws/3.3.5
 32
-25
-1588123985861
+40
+1589427059571
 0

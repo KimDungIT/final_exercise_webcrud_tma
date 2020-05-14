@@ -1,6 +1,6 @@
 182
-mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.xerces/2.12.0_1
+mvn:org.eclipse.jetty/jetty-deploy/9.4.22.v20191022
 32
 30
-1588123986183
+1589427060280
 0

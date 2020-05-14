@@ -1,6 +1,6 @@
 167
-mvn:org.apache.karaf.http/org.apache.karaf.http.core/4.2.8
+mvn:org.apache.servicemix.specs/org.apache.servicemix.specs.jaxrs-api-2.1/2.9.1
 32
-30
-1588123986057
+10
+1589427060185
 0

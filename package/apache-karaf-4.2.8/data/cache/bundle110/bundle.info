@@ -1,6 +1,6 @@
 110
-mvn:com.fasterxml.jackson.dataformat/jackson-dataformat-yaml/2.10.1
+mvn:org.apache.cxf/cxf-rt-features-logging/3.3.5
 32
-35
-1588123985853
+40
+1589427059535
 0

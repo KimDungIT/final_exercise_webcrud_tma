@@ -1,6 +1,6 @@
 80
-mvn:javax.persistence/javax.persistence-api/2.2
+mvn:org.apache.aries.blueprint/org.apache.aries.blueprint.core/1.10.2
 32
-80
-1588123974019
+20
+1589427059193
 0

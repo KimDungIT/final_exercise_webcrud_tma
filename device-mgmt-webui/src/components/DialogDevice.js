@@ -77,10 +77,6 @@ class DialogDevice extends Component {
                              description: error.message,
                            })
                          }
-//        notification.error({
-//          message: "Error ",
-//          description: error.message,
-//        });
       });
   };
 

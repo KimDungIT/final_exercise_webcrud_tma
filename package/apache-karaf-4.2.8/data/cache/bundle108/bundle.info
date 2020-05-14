@@ -1,6 +1,6 @@
 108
-mvn:com.fasterxml.jackson.core/jackson-core/2.10.1
+mvn:org.apache.cxf/cxf-rt-databinding-jaxb/3.3.5
 32
-35
-1588123985842
+40
+1589427059513
 0

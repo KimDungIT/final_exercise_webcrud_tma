@@ -1,6 +1,6 @@
 49
-mvn:javax.interceptor/javax.interceptor-api/1.2
+mvn:org.osgi/org.osgi.service.jdbc/1.0.0
 32
 80
-1588123964357
+1589427051095
 0

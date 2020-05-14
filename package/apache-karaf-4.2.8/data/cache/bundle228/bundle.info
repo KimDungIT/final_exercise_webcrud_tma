@@ -1,6 +1,6 @@
 228
-mvn:org.ops4j.pax.web/pax-web-spi/7.2.14
+mvn:org.osgi/org.osgi.util.function/1.0.0
 32
 30
-1588123986340
+1589427060692
 0

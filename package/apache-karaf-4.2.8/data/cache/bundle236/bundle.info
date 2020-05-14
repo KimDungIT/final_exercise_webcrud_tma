@@ -1,6 +1,6 @@
 236
-mvn:org.ops4j.pax.web/pax-web-deployer/7.2.14
+mvn:org.ops4j.pax.url/pax-url-war/2.6.1/jar/uber
 32
 30
-1588124052331
+1589427083805
 0

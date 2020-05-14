@@ -1,0 +1,4 @@
+.idea
+/*/target/*
+/*/node_modules/*
+/*/package/apache-karaf-4.2.8/data/cache/*

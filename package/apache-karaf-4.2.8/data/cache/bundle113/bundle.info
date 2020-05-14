@@ -1,6 +1,6 @@
 113
-mvn:com.fasterxml.woodstox/woodstox-core/5.0.3
+mvn:org.apache.cxf/cxf-rt-frontend-jaxrs/3.3.5
 32
-20
-1588123985857
+40
+1589427059556
 0

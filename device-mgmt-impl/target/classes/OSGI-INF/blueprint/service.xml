@@ -26,7 +26,9 @@
         <argument ref="deviceHolderDAO"/>
     </bean>
 
+    <bean id="consumerService" class="com.tma.apa.training.device.mgmt.impl.service.ConsumerServiceImpl" init-method="init" destroy-method="destroy"/>
+
     <service ref="deviceHolderService" interface="com.tma.apa.training.device.mgmt.service.DeviceHolderService" />
     <service ref="deviceService" interface="com.tma.apa.training.device.mgmt.service.DeviceService" />
-
+    <service ref="consumerService" interface="com.tma.apa.training.device.mgmt.service.ConsumerService" />
 </blueprint>
